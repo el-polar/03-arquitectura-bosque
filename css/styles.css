@@ -349,3 +349,28 @@ img {
     grid-row: 1 / 2;
   }
 }
+
+/* footer */
+.footer {
+  height: 50rem;
+  background-image: url(../img/footer_bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: var(--white);
+}
+.footer a {
+  color: var(--white);
+  font-size: 2rem;
+}
+.copyright {
+  text-align: center;
+  background-color: var(--black);
+  margin: 5rem 0 0 0;
+  font-size: 2rem;
+  padding: 1rem;
+}
