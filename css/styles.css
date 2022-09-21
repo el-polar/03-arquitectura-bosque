@@ -1,0 +1,74 @@
+:root {
+    --mainFont: "Raleway", sans-serif;
+
+    --gray: #343a40;
+    --white: #ffffff;
+    --black: #1f1e1e;
+}
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    /* 1 REM = 10px */
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: var(--mainFont);
+    font-size: 1.6rem;
+    line-height: 1;
+}
+
+/* Globals */
+.contenedor {
+    max-width: 120rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 900;
+    margin: 1rem 0 4rem 0;
+    line-height: 1.8;
+}
+h1 {
+    font-size: 4.8rem;
+}
+h2 {
+    font-size: 5.8rem;
+}
+h3 {
+    font-size: 5rem;
+}
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+.btn {
+    color: var(--gray);
+    background-color: var(--white);
+    border: 0.1rem solid var(--gray);
+    padding: 0.5rem 2rem;
+    transition: background-color 0.3s;
+}
+.btn:hover {
+    background-color: var(--gray);
+    color: var(--white);
+}
+
+/* Utilities */
+.text-center {
+    text-align: center;
+}
+.mt-5 {
+    margin-top: 5rem;
+}
